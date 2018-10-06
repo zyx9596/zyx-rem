@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script>
+        var dpr = window.devicePixelRatio;
+        console.log(dpr);
+        document.write("<meta name=\"viewport\" content=\"width=device-width,initial-scale="+(1/dpr)+",minimum-scale="+(1/dpr)+",maximum-scale="+(1/dpr)+",user-scalable=no\">");
+    </script>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/index.css">
+    <script>
+        addEventListener("DOMContentLoaded",function(){document.documentElement.style.fontSize = document.documentElement.offsetWidth / 10 + "px";},false);
+        addEventListener("resize",function(){document.documentElement.style.fontSize = document.documentElement.offsetWidth / 10 + "px"},false);
+    </script>
+</head>
+<body>
+    <header class="header">
+        <a href="" class="nav-box-left">
+            <span>北京</span>
+            <i class="iconfont arrow">&#xe604;</i>
+        </a>
+        <a href="" class="search-box">
+            <i class="iconfont1">&#xe610;</i>
+            <span>输入商家/品类/商圈</span>
+        </a>
+        <a href="" class="nav-box-right">
+            <i class="iconfont">&#xe649;</i>
+            <span>我的</span>
+        </a>
+    </header>
+    <div class="container">
+        <div class="banner">
+            <a href=""><img src="img/ad.jpg" /></a>
+        </div>
+        <nav class="nav">
+            <ul>
+                <li><a href="" class="iconfont2 item-1">&#xe610;</a><span class="icon-desc">美食</span></li>
+                <li><a href="" class="iconfont2 item-2">&#xe60d;</a><span class="icon-desc">电影</span></li>
+                <li><a href="" class="iconfont2 item-3">&#xe60b;</a><span class="icon-desc">酒店</span></li>
+                <li><a href="" class="iconfont2 item-4">&#xe629;</a><span class="icon-desc">休闲娱乐</span></li>
+                <li><a href="" class="iconfont2 item-5">&#xe619;</a><span class="icon-desc">外卖</span></li>
+                <li><a href="" class="iconfont2 item-6">&#xe614;</a><span class="icon-desc">KTV</span></li>
+                <li><a href="" class="iconfont2 item-7">&#xe613;</a><span class="icon-desc">周边游</span></li>
+                <li><a href="" class="iconfont2 item-8">&#xe606;</a><span class="icon-desc">丽人</span></li>
+                <li><a href="" class="iconfont2 item-9">&#xe62b;</a><span class="icon-desc">小吃快餐</span></li>
+                <li><a href="" class="iconfont2 item-10">&#xe62f;</a><span class="icon-desc">机票/火车票</span></li>
+            </ul>
+        </nav>
+        <div class="sales">
+            <div class="left-panel">
+                <a href="" class="react">
+                    <figure>
+
+                        <figcaption>
+                            <strong>我们约吧</strong>
+                            <small>恋人家人好朋友</small>
+                        </figcaption>
+                        <img src="img/1.png" alt="">
+                    </figure>
+                </a>
+            </div>
+            <div class="right-panel">
+                <div class="top">
+                    <a href="img/2.png" class="react">
+                        <figure>
+                            <figcaption>
+                                <strong>低价超值</strong>
+                                <small>十元惠生活</small>
+                            </figcaption>
+                            <span class="img-box"><img src="img/2.jpg" alt=""></span>
+                        </figure>
+                    </a>
+                </div>
+                <div class="bottom">
+                    <a href=""  class="react left-item">
+                        <figure>
+                            <figcaption>
+                                <strong>聚餐宴请</strong>
+                                <small>朋友家人常聚聚</small>
+                            </figcaption>
+                            <span class="img-box"><img src="img/3.png" alt=""></span>
+                        </figure>
+                    </a>
+                    <a href="" class="react right-item">
+                        <span class="info">
+                            <strong>名店抢购</strong>
+                            <small>距离结束</small>
+                        </span>
+                        <span class="time-panel">
+                            <time class="hour">00</time><i>:</i>
+                            <time class="minute">00</time><i>:</i>
+                            <time class="second">00</time>
+                        </span>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="data-list">
+            <h2>猜你喜欢</h2>
+            <ul>
+                <li>
+                    
+                </li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
